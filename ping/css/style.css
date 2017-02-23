@@ -1,0 +1,300 @@
+      /*@import url('https://fonts.googleapis.com/css?family=Roboto');*/
+
+      body{
+        font-family: 'Nunito',  Microsoft JhengHei, serif;
+        font-size: 15px;
+      }
+
+      .copyright{
+        text-align: center;
+      }
+
+      .navbar-brand{
+          margin-right: 20px;
+          padding: 0px;
+      }
+
+      .navbar-band img{
+          height: 100%;
+      }
+
+      .space-20{
+          height: 20px;
+      }
+
+      .space-100{
+          height: 100px;
+      }
+
+      .headline h3{
+          margin-left: 15px;
+      }
+
+      .headline-text{
+          font-size: 14px;
+      }
+
+      .index-game-list .img-block{
+          width: 200px;
+          height: 200px;
+          overflow: hidden;
+          margin: auto auto;
+      }
+
+      .index-game-list .index-game-box{
+          margin-bottom: 10px;
+          padding-bottom: 5px;
+          border: 1px solid #f5f5f5;
+      }
+
+      .ad{
+          min-height: 350px;
+          max-height: 350px;
+      }
+
+      .ad-banner{
+          height: 100px;
+      }
+
+
+      .index-game-list .index-game-box b{
+          font-size: 17px;
+      }
+
+      .dropdown-menu-zone{
+          margin-bottom: 15px;
+          text-align: right;
+      }
+
+      .gamelist .gamelist-box{
+          border-radius: 3px;
+          border: 1px solid #f5f5f5;
+          padding: 5px;
+          margin-bottom: 10px;
+          min-height: 350px;
+          margin: 15px;
+          text-align: center;
+      }
+
+
+      .gamelist .gamelist-box b{
+          text-align: left;
+      }
+
+      .gamelist a:hover{
+        text-decoration: none;
+      }
+
+      .gamelist .gamelist-box img{
+          height: 200px;
+          overflow: hidden;
+      }
+
+      .gamelist .gamelist-box .img-area{
+          text-align: center;
+          margin-top: 5px;
+          margin-bottom: 5px;    
+      }
+
+      .game-img-slide .col-md-4{
+          margin-bottom: 5px;
+      }
+
+      .game-panel h4{
+          font-size: 16px;
+      }
+
+      .game-detail-area{
+          text-align: center;
+      }
+
+      .game-download-area{
+          text-align: center;
+          margin-top: 10px;
+          margin-bottom: 10px;
+      }
+
+      .game-download-area a{
+          padding: 20px;
+          font-size: 16px;
+          font-weight: bold;
+      }
+
+      .pagination-zone{
+          text-align: center;
+      }
+
+      .center-cropped {
+          width: 100%;
+          height: 200px;
+          background-position: center center;
+          background-repeat: no-repeat;
+      }
+
+      #login-dp{
+          min-width: 250px;
+          padding: 14px 14px 0;
+          overflow:hidden;
+          background-color:rgba(255,255,255,.8);
+      }
+      #login-dp .help-block{
+          font-size:12px    
+      }
+      #login-dp .bottom{
+          background-color:rgba(255,255,255,.8);
+          border-top:1px solid #ddd;
+          clear:both;
+          padding:14px;
+      }
+      #login-dp .social-buttons{
+          margin:12px 0    
+      }
+      #login-dp .social-buttons a{
+          width: 49%;
+      }
+      #login-dp .form-group {
+          margin-bottom: 10px;
+      }
+      .btn-fb{
+          color: #fff;
+          background-color:#3b5998;
+      }
+      .btn-fb:hover{
+          color: #fff;
+          background-color:#496ebc 
+      }
+      .btn-tw{
+          color: #fff;
+          background-color:#55acee;
+      }
+      .btn-tw:hover{
+          color: #fff;
+          background-color:#59b5fa;
+      }
+      .note-group-select-from-files {
+        display: none;
+      }
+
+      .home-banner{
+        max-height: 150px;
+        margin: 0 auto;
+      }
+
+      .home-fav-game-box{
+        margin: 10px;
+        white-space: normal;
+        text-align: left;
+        max-height: 150px;
+        overflow: hidden;
+      }
+
+
+      .lightbox {
+        /** Default lightbox to hidden */
+        display: none;
+
+        /** Position and style */
+        position: fixed;
+        z-index: 999;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        left: 0;
+        background: rgba(0,0,0,0.8);
+      }
+
+      .lightbox img {
+        /** Pad the lightbox image */
+        max-width: 90%;
+        max-height: 80%;
+        margin-top: 5%;
+      }
+
+      .lightbox:target {
+        /** Remove default browser outline */
+        outline: none;
+
+        /** Unhide lightbox **/
+        display: block;
+      }
+
+      @media(min-width: 768px){
+          .headline{
+              max-height: 430px;
+              overflow-y: hidden;
+          }  
+
+          .lightbox{
+            top: 20px;
+          }
+      }
+
+      @media(max-width:768px){
+          #login-dp{
+              background-color: inherit;
+              color: #fff;
+          }
+          #login-dp .bottom{
+              background-color: inherit;
+              border-top:0 none;
+          }
+
+          #login-dp a{
+              color: #FFF;
+          }
+
+          .lightbox{
+            top: 50px;
+          }
+      }
+
+      @media(min-width: 768px){
+        .index-anim-space{
+          height: 100px;
+        }
+        .index-animation{
+          max-width: 1000px;
+        }
+
+        .enter-1{
+          /*margin: -15px;*/
+        }
+        .enter-2{
+          /*margin: -15px;*/
+        }
+        .enter-3{
+          /*margin: -15px;*/
+        }
+        .enter-4{
+          /*margin: -15px;*/
+        }
+
+        .index-anim-block, .index-anim-block img{
+          text-align: center;
+        }
+      }
+
+
+      @media(max-width: 768px){
+
+        .index-anim-space{
+          height: 0px;
+        }
+        .index-animation{
+          max-width: 100%;
+          max-height: 100%;
+        }
+
+        .index-anim-block, .index-anim-block img{
+          text-align: center;
+          height: 100%;
+        }
+
+        .index-anim-block div{
+          height: 150px;
+          margin-bottom: -20px;
+        }
+
+        .copyright{
+          margin-top: -100px;
+        }
