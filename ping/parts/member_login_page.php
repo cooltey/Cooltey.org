@@ -58,6 +58,17 @@
               <?php echo $this->getCSRF->genTokenFieldForLogin($_SESSION['csrf_token']);?>
             </form>
             <hr>
+            <div class="col-md-3">
+                <!-- Advertisement -->
+                <div class="col-md-12 index-game-box">
+                <?php
+                      // load advertisement
+                      include("_ad_responsive.php");
+                ?>
+                </div>
+                <!-- Advertisement -->
+            </div>
+            <hr>
               <div class="bottom text-center">
                 不是會員？ <a href="./member_register.php"><b>加入會員！</b></a>
               </div>
