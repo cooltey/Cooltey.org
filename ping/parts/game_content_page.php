@@ -206,22 +206,15 @@
         </div>
       </div>
 
-    <script type="text/javascript">
-      
-          var disqus_shortname  = 'cooltey'; 
-          var disqus_identifier   = '<?=$getGameData['id'];?>';
-          var disqus_url      = 'http://www.cooltey.org/ping/game_page.php?id=<?=$getGameData['id'];?>';
-          
-          /* * * DON'T EDIT BELOW THIS LINE * * */
-          (function() {
-              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-              dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      <script>
+          var disqus_config = function () {
+              this.page.url = '<?php echo $this->getLib->getWebsiteUrl();?>/game_page.php?id=<?=$getGameData['id'];?>';
+              this.page.identifier = '<?php echo $getGameData['id'];?>';
+            };
+          (function() {  // DON'T EDIT BELOW THIS LINE
+              var d = document, s = d.createElement('script');
+              s.src = 'https://cooltey.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
           })();
-          (function () {
-              var s = document.createElement('script'); s.async = true;
-              s.type = 'text/javascript';
-              s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-              (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-          }());
-    </script>
+      </script>
