@@ -7,7 +7,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="./index.php"><img src="http://i646.photobucket.com/albums/uu184/cooltey/coolteyorg/brand_logo_zpsx4jktope.png"></a>
+          <a class="navbar-brand" href="./index.php"><span class="ping">平</span>水相逢</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 

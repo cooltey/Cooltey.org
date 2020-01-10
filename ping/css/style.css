@@ -7,11 +7,24 @@
 
       .copyright{
         text-align: center;
+        font-family: arial;
+        font-size: 10px;
       }
 
       .navbar-brand{
-          margin-right: 20px;
-          padding: 0px;
+/*          margin-right: 20px;
+          padding: 0px;*/
+          font-family: DFKai-SB, Apple BiauKai;
+          background-color: #4f4f4f;
+          color: transparent;
+          text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+          -webkit-background-clip: text;
+             -moz-background-clip: text;
+                  background-clip: text;
+      }
+
+      .navbar-brand .ping{
+        font-size: 48px;
       }
 
       .navbar-band img{
@@ -272,6 +285,16 @@
         .index-anim-block, .index-anim-block img{
           text-align: center;
         }
+
+        .index-anim-block h1 {
+            font: 180px DFKai-SB, Apple BiauKai;
+            background-color: #000000;
+            color: transparent;
+            text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+            -webkit-background-clip: text;
+               -moz-background-clip: text;
+                    background-clip: text;
+        }
       }
 
 
@@ -298,3 +321,4 @@
         .copyright{
           margin-top: -100px;
         }
+      }

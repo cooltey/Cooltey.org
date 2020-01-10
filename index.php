@@ -35,16 +35,16 @@
         <div class="col-sm-12">
           <div class="row index-anim-block">
             <div class="col-sm-3">
-              <img src="http://i646.photobucket.com/albums/uu184/cooltey/coolteytw/ping.png" class="img-responsive enter-1 shake-slow">
+              <h1 class="enter-1 shake-slow">平</h1>
             </div>
             <div class="col-sm-3">
-              <img src="http://i646.photobucket.com/albums/uu184/cooltey/coolteytw/shua.png" class="img-responsive enter-2 shake-slow">
+              <h1 class="enter-2 shake-slow">水</h1>
             </div>
             <div class="col-sm-3">
-              <img src="http://i646.photobucket.com/albums/uu184/cooltey/coolteytw/shan.png" class="img-responsive enter-3 shake-slow">
+              <h1 class="enter-3 shake-slow">相</h1>
             </div>
             <div class="col-sm-3">
-              <img src="http://i646.photobucket.com/albums/uu184/cooltey/coolteytw/feng.png" class="img-responsive enter-4 shake-slow">
+              <h1 class="enter-4 shake-slow">逢</h1>
             </div>
             <div class="col-sm-9">
             </div>
