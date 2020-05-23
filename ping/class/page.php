@@ -115,7 +115,7 @@ class Pager{
 					 $prev_page = $now - 1;
 				  }
 
-				  echo "<li><a href=\"{$current_page}page={$prev_page} aria-label=\"Previous\"\"><span aria-hidden=\"true\">上一頁</span></a></li>";
+				  echo "<li><a href=\"{$current_page}page={$prev_page}\" aria-label=\"Previous\"\"><span aria-hidden=\"true\">上一頁</span></a></li>";
 
 
 				 
@@ -142,7 +142,7 @@ class Pager{
 				  	$next_page = $now + 1;
 			    }
 
-			    echo "<li><a href=\"{$current_page}page={$next_page} aria-label=\"Next\"\"><span aria-hidden=\"true\">下一頁</span></a></li>";
+			    echo "<li><a href=\"{$current_page}page={$next_page}\" aria-label=\"Next\"\"><span aria-hidden=\"true\">下一頁</span></a></li>";
 
 			   echo "</ul>";
 

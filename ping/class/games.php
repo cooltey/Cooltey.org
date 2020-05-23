@@ -475,7 +475,7 @@ class Games{
 				
 				$page    	= $getData['page'];
 				$many	 	= $getMany;
-				$display 	= "3";
+				$display 	= "6";
 				$total	 	= $count;
 				$pagename	= $this->pageName."?".$getTypeUrl.$getCategoryUrl.$orderByUrl;
 				$getPage = new Pager($page, $many, $display, $total, $pagename);

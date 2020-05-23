@@ -46,7 +46,9 @@
               <div class="gamelist-box btn-default z-depth-5">
                 <b><?php echo $lData['name'];?></b><br>
                 <div class="img-area">
+                  <?php if (!strpos($lData['pic1'], "myweb")) { ?>
                   <img src="<?php echo $lData['pic1'];?>" class="img-responsive img-thumbnail">
+                  <?php } ?>
                 </div>
                 <span class="label label-default">人氣：<?php echo number_format($lData['count']);?></span>
                 <a href="./gamelist.php?<?php echo $this->showCategoryLinks($_GET['type'], $lData['category']);?>"><span class="label label-success"><?php echo $lData['category'];?></span></a>
