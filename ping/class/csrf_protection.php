@@ -12,7 +12,7 @@ class CSRFProtection{
 	var $getToken;
 	var $getLib;
 
-	function CSRFProtection($get_lib){				
+	function __construct($get_lib){
 		$this->getLib 		= $get_lib;
 	}
 

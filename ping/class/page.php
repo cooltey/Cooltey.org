@@ -15,7 +15,7 @@ class Pager{
 		var $pageNameVar;
 		var $totalVar;
 		
-		function Pager($page, $many, $display, $total, $pagename){
+		function __construct($page, $many, $display, $total, $pagename){
 			$page 		= strip_tags(intval($page));
 			$many 		= strip_tags(intval($many));
 			$display 	= strip_tags(intval($display));

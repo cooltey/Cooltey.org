@@ -17,7 +17,7 @@ class Order{
 		
 		// get array
 		// array("name" => array("title" => "名稱", "column" => "uae_name"));
-		function Order($order_array, $order_by, $order_mode, $pagename){
+		function __construct($order_array, $order_by, $order_mode, $pagename){
 			$order_by 	= strtolower(strip_tags($order_by));
 			$order_mode = strip_tags(intval($order_mode));
 			

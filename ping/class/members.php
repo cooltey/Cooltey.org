@@ -14,7 +14,7 @@ class Members{
 	var $pageName;
 	var $getCSRF;
 	
-	function Members($get_db, $get_lib, $page){				
+	function __construct($get_db, $get_lib, $page){
 		$this->getLib 			= $get_lib;
 		$this->db				= $get_db;
 		$this->pageName    	 	= $page.".php";
