@@ -41,6 +41,7 @@
               </ul>
             </li>
             <li><a href="./contact.php">聯絡站長</a></li>
+            <li><a href="./privacy.php">隱私權政策</a></li>
           </ul>
 
 

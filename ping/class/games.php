@@ -76,6 +76,10 @@ class Games{
 				$returnVal = "聯絡站長";
 			break;
 
+			case "privacy":
+				$returnVal = "隱私權政策";
+			break;
+
 			default:
 				$returnVal = "首頁";
 
@@ -287,6 +291,12 @@ class Games{
 
 				// load page
 				include_once("./parts/contact_page.php");
+			break;
+
+			case "privacy":
+
+				// load page
+				include_once("./parts/privacy_page.php");
 			break;
 
 		}	
