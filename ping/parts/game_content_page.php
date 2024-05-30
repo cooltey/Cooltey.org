@@ -72,14 +72,6 @@
 
               </div>
               <!-- Advertisement -->
-              <div class="row">
-                <div class="col-md-12">
-                  <?php
-                        // load advertisement
-                        include("_ad_responsive.php");
-                  ?>
-                </div>
-              </div>
               <!-- Advertisement -->
               <div class="space-20"></div>
 
@@ -169,15 +161,6 @@
                 
               </div>
               <!-- Advertisement -->
-              <div class="row">
-                <div class="col-md-12">
-                  <?php
-                        // load advertisement
-                        include("_ad_responsive_related.php");
-                  ?>
-                </div>
-              </div>
-              <div class="space-20"></div>
               <!-- Advertisement -->
               <!-- Disqus -->
               <div class="panel panel-default">

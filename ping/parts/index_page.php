@@ -40,14 +40,6 @@
           </p>
           <p><a class="btn btn-primary btn-lg" href="./game_page.php?id=<?php echo $topicArticle['id'];?>" role="button">想玩啊 &raquo;</a></p>
           <!-- Advertisement -->
-          <div class="row">
-            <div class="col-lg-12">
-              <?php
-                // load advertisement
-                include("_ad_responsive.php");
-              ?>  
-            </div>
-          </div>
           <!-- Advertisement -->
         </div>
         <div class="col-lg-4">
