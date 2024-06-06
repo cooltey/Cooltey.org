@@ -28,7 +28,7 @@
               <div class="space-20"></div>
               <div class="row game-img-slide">
                 <?php 
-                  if($getGameData['pic1'] != ""){
+                  if($getGameData['pic1'] != "" && !strpos($getGameData['pic1'], "myweb")){
                 ?>
                 <div class="col-md-4">
                   <a href="#img1"><img src="<?php echo $getGameData['pic1'];?>" class="img-responsive img-thumbnail"></a>
@@ -40,7 +40,7 @@
                   }
                 ?>
                 <?php 
-                  if($getGameData['pic2'] != ""){
+                  if($getGameData['pic2'] != "" && !strpos($getGameData['pic2'], "myweb")){
                 ?>
                 <div class="col-md-4">
                   <a href="#img2"><img src="<?php echo $getGameData['pic2'];?>" class="img-responsive img-thumbnail"></a>
@@ -57,6 +57,7 @@
                     // split data
                     $picExtraData = explode("|", $getGameData['pic_extra']);
                     foreach($picExtraData AS $picData){
+                      if (!strpos($picData, "myweb")) {
                 ?>
                 <div class="col-md-4">
                   <a href="#img<?php echo $img_count;?>"><img src="<?php echo $picData;?>" class="img-responsive img-thumbnail"></a>
@@ -65,7 +66,8 @@
                   </a>
                 </div>
                 <?php
-                    $img_count++;
+                        $img_count++;
+                      }
                     }
                   }
                 ?>
@@ -106,8 +108,10 @@
                     <div class="row">
                       <div class="col-md-12">
                         <?php
+                            if ($downloadLink != "#") {
                               // load advertisement
                               include("_ad_responsive.php");
+                            }
                         ?>
                       </div>
                     </div>
@@ -182,7 +186,9 @@
             <div class="col-md-12 index-game-box">
             <?php
                   // load advertisement
-                  include("_ad_responsive.php");
+                  if ($downloadLink != "#") {
+                    include("_ad_responsive.php");
+                  }
             ?>
             </div>
             <!-- Advertisement -->
