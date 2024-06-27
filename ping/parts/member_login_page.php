@@ -63,7 +63,7 @@
                 <div class="col-md-12 index-game-box">
                 <?php
                       // load advertisement
-                      include("_ad_responsive.php");
+                      // include("_ad_responsive.php");
                 ?>
                 </div>
                 <!-- Advertisement -->
